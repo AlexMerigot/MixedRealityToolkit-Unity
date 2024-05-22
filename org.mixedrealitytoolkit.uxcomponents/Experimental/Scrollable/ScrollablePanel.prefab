@@ -111,6 +111,7 @@ MonoBehaviour:
   attachedRectTransform: {fileID: 6449560764903005710}
   padding: {x: 0, y: 0}
   forceUpdateEveryFrame: 0
+  canToggleCollider: 1
 --- !u!114 &6449560764903005709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -195,7 +196,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 4294967295
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_CustomReticle: {fileID: 0}

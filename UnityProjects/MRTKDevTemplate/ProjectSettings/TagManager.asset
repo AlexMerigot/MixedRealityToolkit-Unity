@@ -3,14 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - ExperimentalDynamicFrontplate
+  - transparent
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - SurfaceForMagnet
   - Water
   - UI
+  - SurfacForMAgnet2
   - 
   - 
   - 
@@ -19,8 +22,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - Grabable
   - 
   - 
   - 
@@ -40,4 +42,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Layer1
+    uniqueID: 1519208363
     locked: 0

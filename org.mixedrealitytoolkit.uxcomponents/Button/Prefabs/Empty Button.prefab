@@ -397,7 +397,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 4294967295
   m_DistanceCalculationMode: 1
   m_SelectMode: 1
   m_CustomReticle: {fileID: 0}
@@ -613,6 +613,14 @@ MonoBehaviour:
   rollOffXYDepth: 3
   rejectZRollOff: 0
   extendSpeed: 0.5
+  <IsProximityHovered>k__BackingField:
+    active: 0
+    onEntered:
+      m_PersistentCalls:
+        m_Calls: []
+    onExited:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!114 &3705378105823492763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -699,7 +707,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   statefulInteractable: {fileID: 3705378105823492762}
-  thisCollider: {fileID: 3705378105823492760}
   colliderFitter: {fileID: 3705378105823492761}
 --- !u!95 &3705378105823492766
 Animator:

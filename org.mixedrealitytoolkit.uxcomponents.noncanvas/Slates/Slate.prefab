@@ -943,7 +943,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 4294967295
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_CustomReticle: {fileID: 0}
@@ -982,8 +982,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 5795341611655048526}
-        m_TargetAssemblyTypeName: MixedReality.Toolkit.StatefulInteractable,
-          MixedReality.Toolkit.Core
+        m_TargetAssemblyTypeName: MixedReality.Toolkit.StatefulInteractable, MixedReality.Toolkit.Core
         m_MethodName: ForceSetToggled
         m_Mode: 6
         m_Arguments:
@@ -1165,6 +1164,7 @@ MonoBehaviour:
   hostTransform: {fileID: 6612599088134562825}
   allowedManipulations: 7
   allowedInteractionTypes: 7
+  rigidbodyMovementType: 0
   applyTorque: 1
   springForceSoftness: 0.1
   springTorqueSoftness: 0.1
@@ -1187,8 +1187,7 @@ MonoBehaviour:
     moveLogicType:
       reference: MixedReality.Toolkit.SpatialManipulation.MoveLogic, MixedReality.Toolkit.SpatialManipulation
     rotateLogicType:
-      reference: MixedReality.Toolkit.SpatialManipulation.RotateLogic,
-        MixedReality.Toolkit.SpatialManipulation
+      reference: MixedReality.Toolkit.SpatialManipulation.RotateLogic, MixedReality.Toolkit.SpatialManipulation
     scaleLogicType:
       reference: MixedReality.Toolkit.SpatialManipulation.ScaleLogic, MixedReality.Toolkit.SpatialManipulation
 --- !u!114 &7056686424932172569

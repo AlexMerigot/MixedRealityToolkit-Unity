@@ -69,7 +69,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 4294967295
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_CustomReticle: {fileID: 0}
@@ -102,8 +102,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 5273528282627450551}
-        m_TargetAssemblyTypeName: MixedReality.Toolkit.Examples.PanZoomBase,
-          Assembly-CSharp
+        m_TargetAssemblyTypeName: MixedReality.Toolkit.Examples.PanZoomBase, Assembly-CSharp
         m_MethodName: OnSelectEntered
         m_Mode: 1
         m_Arguments:
@@ -118,8 +117,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 5273528282627450551}
-        m_TargetAssemblyTypeName: MixedReality.Toolkit.Examples.PanZoomBase,
-          Assembly-CSharp
+        m_TargetAssemblyTypeName: MixedReality.Toolkit.Examples.PanZoomBase, Assembly-CSharp
         m_MethodName: OnSelectExited
         m_Mode: 1
         m_Arguments:

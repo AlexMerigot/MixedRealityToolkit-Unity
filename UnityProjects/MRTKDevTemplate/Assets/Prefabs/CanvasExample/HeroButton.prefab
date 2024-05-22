@@ -1222,7 +1222,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 4294967295
   m_DistanceCalculationMode: 1
   m_SelectMode: 1
   m_CustomReticle: {fileID: 0}
@@ -1438,6 +1438,14 @@ MonoBehaviour:
   rollOffXYDepth: 3
   rejectZRollOff: 0
   extendSpeed: 0.5
+  <IsProximityHovered>k__BackingField:
+    active: 0
+    onEntered:
+      m_PersistentCalls:
+        m_Calls: []
+    onExited:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!114 &9062819528647497188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1510,6 +1518,7 @@ MonoBehaviour:
   attachedRectTransform: {fileID: 9062819528647497186}
   padding: {x: 0, y: 0}
   forceUpdateEveryFrame: 0
+  canToggleCollider: 1
 --- !u!95 &9062819528647497185
 Animator:
   serializedVersion: 5

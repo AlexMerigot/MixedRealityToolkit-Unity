@@ -300,7 +300,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 4294967295
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_CustomReticle: {fileID: 0}
@@ -487,6 +487,7 @@ MonoBehaviour:
   attachedRectTransform: {fileID: 7923360315430293328}
   padding: {x: 0, y: 0}
   forceUpdateEveryFrame: 0
+  canToggleCollider: 1
 --- !u!1 &7923360315435289472
 GameObject:
   m_ObjectHideFlags: 0

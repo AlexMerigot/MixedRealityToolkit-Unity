@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LayerNames:
   - Default
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Cube
+  - Sphere
+  - Cylinder
+  - Capsule
+  - Petit objet
+  - SurfaceForMagnet
   - 
   - 
   - 
